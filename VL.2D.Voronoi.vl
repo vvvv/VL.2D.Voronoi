@@ -1018,10 +1018,10 @@
       </Node>
       <!--
 
-    ************************ Delauney ************************
+    ************************ Delaunay ************************
 
 -->
-      <Node Name="Delauney" Bounds="383,250" Id="I4tN7fXCnpFObuxhL4Hy54">
+      <Node Name="Delaunay" Bounds="383,250" Id="I4tN7fXCnpFObuxhL4Hy54">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <FullNameCategoryReference ID="Primitive" />

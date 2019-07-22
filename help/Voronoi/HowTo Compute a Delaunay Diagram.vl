@@ -102,7 +102,7 @@
           <Node Bounds="380,283,58,19" Id="Oc0VMxsNKKCPijPbWGmBc2">
             <p:NodeReference LastCategoryFullName="2D.Voronoi" LastSymbolSource="VL.2D.Voronoi.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Delauney" />
+              <Choice Kind="ProcessNode" Name="Delaunay" />
             </p:NodeReference>
             <Pin Id="JXODZcjVv87OVsbuMHXc23" Name="Input" Kind="InputPin" />
             <Pin Id="NQYeBW8lJ6CO9fwEZBLYSv" Name="Start" Kind="OutputPin" />
