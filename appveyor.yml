@@ -36,11 +36,6 @@ platform: Any CPU
 # build Configuration, i.e. Debug, Release, etc.
 configuration: Release
 
-build:
-  publish_nuget: false             # package projects with .nuspec files and push to artifacts
-  publish_nuget_symbols: false     # generate and publish NuGet symbol packages
-  include_nuget_references: true  # add -IncludeReferencedProjects option while packaging NuGet artifacts
-
 after_build:
   - nuget pack appveyor\VL.2D.Voronoi.nuspec -Version %APPVEYOR_BUILD_VERSION%-alpha
   - nuget setApiKey %nuget_api_key%
