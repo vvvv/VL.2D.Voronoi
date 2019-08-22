@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="HIrGRrNQc4TLlzWMtyAg3O" LanguageVersion="2019.1.0-0489-gd7b6d7b7a5" Version="0.128">
+<Document xmlns:p="property" Id="HIrGRrNQc4TLlzWMtyAg3O" LanguageVersion="2019.1.0-0573-g619e81f294" Version="0.128">
   <NugetDependency Id="Owzb9AF9NpELI7Y4i2d7ws" Location="VL.CoreLib" Version="2019.1.0-488" />
   <Patch Id="QhwObqbMsLjMoZKYFQk7Hs">
     <Canvas Id="Ip8mua5k34sNZvl3FKCqoW" DefaultCategory="2D.Voronoi" CanvasType="FullCategory">
@@ -872,7 +872,7 @@
               <Pin Id="RRAo2qK33ypLbheCpJjoOn" Name="Output" Kind="StateOutputPin" />
               <Pin Id="DJM9srjfOLJLK7N8ODxxJz" Name="FAt Infinity" Kind="OutputPin" />
             </Node>
-            <Node Bounds="594,448,55,26" Id="NErzLUyfPyMMv267pf2iIQ">
+            <Node Bounds="597,508,55,26" Id="NErzLUyfPyMMv267pf2iIQ">
               <p:NodeReference LastCategoryFullName="DAP.CompGeom.WePolygon" LastSymbolSource="Computational Geometry.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Vertices" />
@@ -883,7 +883,7 @@
               <Pin Id="VxG6NAWcs5JOiIqoZiMm3f" Name="Vertices" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="CJOTZ3VCsSbO7d6LBPhyHo" Bounds="686,352" />
-            <Node Bounds="594,525,55,26" Id="EVxPYUegQdiMzAAxkxWC9u">
+            <Node Bounds="595,547,55,26" Id="EVxPYUegQdiMzAAxkxWC9u">
               <p:NodeReference LastCategoryFullName="DAP.CompGeom.WePolygon" LastSymbolSource="Computational Geometry.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Edges" />
@@ -971,6 +971,25 @@
               <Pin Id="QCZsPtRV6syPvafzMLQDc8" Name="Result" Kind="OutputPin" />
               <Pin Id="NPw6olzmPbnPKQulit85nW" Name="Success" Kind="OutputPin" />
             </Node>
+            <Node Bounds="589,435,75,26" Id="V7CuCVjYJP5P2aeFuKIQxn">
+              <p:NodeReference LastCategoryFullName="DAP.CompGeom.FortunePoly" LastSymbolSource="Computational Geometry.dll">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="AssemblyCategory" Name="FortunePoly" />
+                <Choice Kind="OperationCallFlag" Name="VoronoiPoint" />
+              </p:NodeReference>
+              <Pin Id="RzWxeDWL84nN0tpiuJNKCj" Name="Input" Kind="StateInputPin" />
+              <Pin Id="JEzW2brKQ8CNhIaeRRu7Pr" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="BWgDgUEf6dWPUejGd10A0Q" Name="Voronoi Point" Kind="OutputPin" />
+            </Node>
+            <ControlPoint Id="K1UufZeBJGyMb75I3YsDHw" Bounds="692,527" />
+            <Node Bounds="689,490,93,19" Id="FCWarCVM11oN5Xg4jDfhiT">
+              <p:NodeReference LastCategoryFullName="2D.Voronoi" LastSymbolSource="VL.2D.Voronoi.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="PointDToVector2" />
+              </p:NodeReference>
+              <Pin Id="UeV1qIYwHhxN0Uwx80zAQQ" Name="Input" Kind="InputPin" />
+              <Pin Id="CJ1im4M8ci0LLBsIWDcYA0" Name="Output" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <Patch Id="SlpVMEExs1DMHRDSCLUsk3" Name="Create" />
           <Patch Id="HmvrU5qZeCYNmF1yi241HM" Name="Update" ManuallySortedPins="true">
@@ -981,6 +1000,7 @@
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="Qexed7dIk21LZOwbFMjylI" Name="Vertices" Kind="OutputPin" Bounds="847,609" />
+            <Pin Id="M9C9qeU17nXOao7A2vU3lq" Name="Center" Kind="OutputPin" Bounds="701,501" />
             <Pin Id="TdcwyDH0rwJOJ16pcy2Eid" Name="Index" Kind="OutputPin">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="Integer32" />
@@ -1003,7 +1023,6 @@
           <Link Id="J7A4IHu0ky8LIoV3F8EBeq" Ids="G5DGVdNvnC7Lhyabybm9Nx,CmdGajchTyMM0xb7iK8qDT" />
           <Link Id="Q9ZY9tg6QJHPBkEVkoKzoC" Ids="Q1EjzTT4de6Nsxk0JKGmwQ,G5DGVdNvnC7Lhyabybm9Nx" />
           <Link Id="BqcBEV4PYhANKn4dTye0I6" Ids="RRAo2qK33ypLbheCpJjoOn,E7YjBG9UHlKQUb9GR5wHOD" />
-          <Link Id="J2q1STDLPO3OQWZOu6LUI3" Ids="Cvlh3KkJuChL5rEAV3rrXn,EvvHjx0Mtz1LXtNR2cipcG" />
           <Link Id="BCDS5n1OIgrPXG34NPadRv" Ids="AGNlGzwZdUlNVPqqDUdgaJ,GMw8oCpxmDpNKQ4xuHq37L" />
           <Link Id="McTgjeqXNZdPLG5gckpqDd" Ids="Qr6gcYIMYobPAOvJroGJor,AGNlGzwZdUlNVPqqDUdgaJ" IsHidden="true" />
           <Link Id="CNdHkSXicJJM9xS51EDeqw" Ids="GZQ9BUYM8xcOPDKxu9Mqs5,NVKoCbTDNQBPGyGjrYQLDY" />
@@ -1014,6 +1033,11 @@
           <Link Id="AldEszqx2f6Qa7oJUKgDQg" Ids="FOxZmxcxyJzOB56BaFqa82,PFYLinGPrjXON2xl1wvdPK" />
           <Link Id="EgX9KtMXBDgM1gMBpu6oYc" Ids="Gd5eVXaamrWMXuIJPpo8xB,FOxZmxcxyJzOB56BaFqa82" IsHidden="true" />
           <Link Id="TMsdctalUbWOc2peFIeLcf" Ids="QCZsPtRV6syPvafzMLQDc8,Im1u5EqH9lwQb4v751LX7y" />
+          <Link Id="N74ZyNoDXEqQStUkbYTmoW" Ids="Cvlh3KkJuChL5rEAV3rrXn,RzWxeDWL84nN0tpiuJNKCj" />
+          <Link Id="IkDOzQFWG9JNM2RMz01tVt" Ids="JEzW2brKQ8CNhIaeRRu7Pr,EvvHjx0Mtz1LXtNR2cipcG" />
+          <Link Id="H5RTBsvmtS5PafqSrTPNf2" Ids="K1UufZeBJGyMb75I3YsDHw,M9C9qeU17nXOao7A2vU3lq" IsHidden="true" />
+          <Link Id="OtHOWb2v9y2MmBPSq82wjS" Ids="BWgDgUEf6dWPUejGd10A0Q,UeV1qIYwHhxN0Uwx80zAQQ" />
+          <Link Id="OVreHKw43LHPECQsvlzC5S" Ids="CJ1im4M8ci0LLBsIWDcYA0,K1UufZeBJGyMb75I3YsDHw" />
         </Patch>
       </Node>
       <!--
