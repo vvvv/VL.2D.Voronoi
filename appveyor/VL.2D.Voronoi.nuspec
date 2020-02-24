@@ -6,12 +6,13 @@
     <title>VL.2D.Voronoi</title>
     <authors>darrellp, vvvv</authors>
     <owners>vvvv</owners>
-    <projectUrl>http://vvvv.org</projectUrl>
+    <projectUrl>https://github.com/vvvv/VL.2D.voronoi</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Set of nodes to work with Voronoi diagrams in VL</summary>
     <description>Vornoi for VL</description>
     <copyright>Copyright © 2019 by vvvv group. All rights reserved.</copyright>
     <tags>VL, voronoi, delaunay</tags>
+	<license type="expression">LGPL-3.0-only</license>
   </metadata>
   <files>
     <file src="..\lib\*.dll" target="lib\net461" exclude="" />
