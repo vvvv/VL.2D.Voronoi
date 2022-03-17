@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.2D.Voronoi</id>
-    <version>$version$</version>
+    <version>0.1.6-alpha</version>
     <title>VL.2D.Voronoi</title>
     <authors>darrellp, vvvv</authors>
     <owners>vvvv</owners>
