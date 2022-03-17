@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="HIrGRrNQc4TLlzWMtyAg3O" LanguageVersion="2019.1.0-0573-g619e81f294" Version="0.128">
-  <NugetDependency Id="Owzb9AF9NpELI7Y4i2d7ws" Location="VL.CoreLib" Version="2019.1.0-488" />
+<Document xmlns:p="property" Id="HIrGRrNQc4TLlzWMtyAg3O" LanguageVersion="2021.4.7.906" Version="0.128">
+  <NugetDependency Id="Owzb9AF9NpELI7Y4i2d7ws" Location="VL.CoreLib" Version="2021.4.7" />
   <Patch Id="QhwObqbMsLjMoZKYFQk7Hs">
     <Canvas Id="Ip8mua5k34sNZvl3FKCqoW" DefaultCategory="2D.Voronoi" CanvasType="FullCategory">
       <!--
@@ -18,16 +18,14 @@
             <ControlPoint Id="Cm7v9GUtjo1LcBfBJZQwiD" Bounds="346,181" />
             <ControlPoint Id="BVtus09wOmHNc524mArlxI" Bounds="334,830" />
             <Node Bounds="278,236,249,556" Id="A8AJUbGkhJzNQMbgt5KEpG">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                 <FullNameCategoryReference ID="Primitive" />
               </p:NodeReference>
-              <Pin Id="LwdmF3A1K7gQJcFQfia8hx" Name="Force" Kind="InputPin">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Boolean" />
-                </p:TypeAnnotation>
-              </Pin>
+              <ControlPoint Id="MJklOxQRDcZP9YkPpIAH6I" Bounds="345,243" Alignment="Top" />
+              <ControlPoint Id="VpWsGOOPm36PFOihLEPtxI" Bounds="336,786" Alignment="Bottom" />
+              <Pin Id="LwdmF3A1K7gQJcFQfia8hx" Name="Force" Kind="InputPin" />
               <Pin Id="VPS3ZbzkSriL1whHMbF81f" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="A0KSLH2pp4hLdvKxzrJ44F" Name="Has Changed" Kind="OutputPin" />
               <Patch Id="L4Ub4NjlcQPOJax4OiEVpV" ManuallySortedPins="true">
@@ -42,7 +40,7 @@
                   <Pin Id="LMiNHj79QvFPrAVkEohrJF" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="330,264,120,66" Id="T0Xs7xzi7TEQEjz9KIulHY">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                     <CategoryReference Kind="Category" Name="Primitive" />
@@ -65,7 +63,7 @@
                   <ControlPoint Id="JT1KfkGZv8mOzAJNJ0DBeE" Bounds="344,320" Alignment="Bottom" />
                 </Node>
                 <Node Bounds="394,453,113,96" Id="UIjRczK2dkRMfwWAjQ4Zmr">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                     <CategoryReference Kind="Category" Name="Primitive" />
@@ -101,7 +99,7 @@
                   <Pin Id="HhfDk1UirCPNicBAQJtrqY" Name="Lst Vertices" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="402,652,113,97" Id="H4dQtHZfr0QLOXWZ72EPj2">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                     <CategoryReference Kind="Category" Name="Primitive" />
@@ -137,8 +135,6 @@
                   <Pin Id="SAFVohQHdsBLtVcRuqWevn" Name="Lst Edges" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="MJklOxQRDcZP9YkPpIAH6I" Bounds="345,243" Alignment="Top" />
-              <ControlPoint Id="VpWsGOOPm36PFOihLEPtxI" Bounds="336,786" Alignment="Bottom" />
             </Node>
           </Canvas>
           <Patch Id="FEnkyt8cDScL4nKxaUYDhf" Name="Create" />
@@ -187,7 +183,7 @@
             <ControlPoint Id="MhLOkHuVO0bOOE8wwlNx1c" Bounds="450,1009" />
             <ControlPoint Id="D0Xf4ceceP1OdmBfEU0i6e" Bounds="556,1009" />
             <Node Bounds="316,316,374,659" Id="N2GJ7iZ2C3LOWf5UeUWezz">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                 <FullNameCategoryReference ID="Primitive" />
@@ -195,6 +191,10 @@
               <Pin Id="Tl29oFjAHRENjSb65ehU0b" Name="Force" Kind="InputPin" />
               <Pin Id="RKLacf4VBR1NjGVCy3btwP" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="JbB5WWYWqzxOuAjW1ZqLBK" Name="Has Changed" Kind="OutputPin" />
+              <ControlPoint Id="A4pfmPXsHECL8ghqCGHDlp" Bounds="328,323" Alignment="Top" />
+              <ControlPoint Id="Vu4mkSIkqfDLvJobjNlvAd" Bounds="450,969" Alignment="Bottom" />
+              <ControlPoint Id="HBGx4KBb3YeM3u9qoBskea" Bounds="556,969" Alignment="Bottom" />
+              <ControlPoint Id="JAZZNQrYMefMmlcgUyw6vH" Bounds="631,322" Alignment="Top" />
               <Patch Id="MmmjFyteO4nMeAc1UVPiqn" ManuallySortedPins="true">
                 <Patch Id="IMkcFvJdF2ZODxH8tGmEwO" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="FTBVnM8ZIaeLkDiX09OLzx" Name="Then" ManuallySortedPins="true" />
@@ -244,12 +244,15 @@
                   </Patch>
                 </Node>
                 <Node Bounds="379,564,299,378" Id="UEhfgdz5BcwNExk1NGXZWW">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                     <CategoryReference Kind="Category" Name="Primitive" />
                   </p:NodeReference>
                   <Pin Id="PrtTWK3czySQYtoJ07Rpei" Name="Break" Kind="OutputPin" />
+                  <ControlPoint Id="BQnlbfcarNqQLO2U7fMJA4" Bounds="393,571" Alignment="Top" />
+                  <ControlPoint Id="NcA8CMIgdqiOyCzoOTVQjs" Bounds="449,935" Alignment="Bottom" />
+                  <ControlPoint Id="GtXzyLKmLhSM9HTsEshPQJ" Bounds="555,935" Alignment="Bottom" />
                   <Patch Id="Cg7i5SANvg0QBOEHftFbv9" ManuallySortedPins="true">
                     <Patch Id="DeVwCWWvk2AMBYCcMv4Vvm" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="UlpNlcGu46nMqUcIyTf1O5" Name="Update" ManuallySortedPins="true" />
@@ -298,7 +301,7 @@
                       <Pin Id="L0tcGrAavuSMremK8ZBQwc" Name="FRay" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="541,815,69,106" Id="GI5xX0Ex2pMNq399ZjxsJB">
-                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <Choice Kind="ApplicationStatefulRegion" Name="If" />
                         <CategoryReference Kind="Category" Name="Primitive" />
@@ -348,15 +351,8 @@
                       <Pin Id="RyWAiVTpIN2Mn9eTabQ926" Name="Pt" Kind="OutputPin" />
                     </Node>
                   </Patch>
-                  <ControlPoint Id="BQnlbfcarNqQLO2U7fMJA4" Bounds="393,571" Alignment="Top" />
-                  <ControlPoint Id="NcA8CMIgdqiOyCzoOTVQjs" Bounds="449,935" Alignment="Bottom" />
-                  <ControlPoint Id="GtXzyLKmLhSM9HTsEshPQJ" Bounds="555,935" Alignment="Bottom" />
                 </Node>
               </Patch>
-              <ControlPoint Id="A4pfmPXsHECL8ghqCGHDlp" Bounds="328,323" Alignment="Top" />
-              <ControlPoint Id="Vu4mkSIkqfDLvJobjNlvAd" Bounds="450,969" Alignment="Bottom" />
-              <ControlPoint Id="HBGx4KBb3YeM3u9qoBskea" Bounds="556,969" Alignment="Bottom" />
-              <ControlPoint Id="JAZZNQrYMefMmlcgUyw6vH" Bounds="631,322" Alignment="Top" />
             </Node>
             <ControlPoint Id="NLnS0vGV5a7Pxc4WpzWPj4" Bounds="643,273" />
           </Canvas>
@@ -441,7 +437,7 @@
         <Patch Id="IY8rOoD8R4iM9ttZbkW84S">
           <Canvas Id="BDNfZIZGej5MDsEivciUAG" CanvasType="Group">
             <Node Bounds="505,244,284,272" Id="GHzZ0EGHPs6QFbPRpAtINe">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                 <FullNameCategoryReference ID="Primitive" />
@@ -449,11 +445,16 @@
               <Pin Id="VsbzGggCTxzNGXelvk4u0I" Name="Force" Kind="InputPin" />
               <Pin Id="LYSJnsJT1oJQbY6auB645o" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="NEaGIrwjiFAMPr7n8DADSn" Name="Has Changed" Kind="OutputPin" />
+              <ControlPoint Id="Mr5LNdSYtEXQEAZiSCjcWu" Bounds="517,256" Alignment="Top" />
+              <ControlPoint Id="UGlOuqfHMAcNS4JtJzU2jd" Bounds="604,256" Alignment="Top" />
+              <ControlPoint Id="BjUkfOE0MF7QCe6PVotyjx" Bounds="762,256" Alignment="Top" />
+              <ControlPoint Id="BVlsGPMT1G2MbriEVn7E2V" Bounds="773,256" Alignment="Top" />
+              <ControlPoint Id="OGlDF6RMhrxLDFdt5zlP4P" Bounds="536,510" Alignment="Bottom" />
               <Patch Id="H4l9AhqxhNhMzNwLFSqPPl" ManuallySortedPins="true">
                 <Patch Id="VfqpAeygUhePC92mF7f4J8" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="AGwuc63T59IQNLnh87O3wv" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="581,303,117,68" Id="LKLXd2UmWL1L2IV3VWOSHI">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                     <CategoryReference Kind="Category" Name="Primitive" />
@@ -487,11 +488,6 @@
                   <Pin Id="EtXtxqR3hQHOtkYcBrkmSX" Name="Output" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="Mr5LNdSYtEXQEAZiSCjcWu" Bounds="517,256" Alignment="Top" />
-              <ControlPoint Id="UGlOuqfHMAcNS4JtJzU2jd" Bounds="604,256" Alignment="Top" />
-              <ControlPoint Id="BjUkfOE0MF7QCe6PVotyjx" Bounds="762,256" Alignment="Top" />
-              <ControlPoint Id="BVlsGPMT1G2MbriEVn7E2V" Bounds="773,256" Alignment="Top" />
-              <ControlPoint Id="OGlDF6RMhrxLDFdt5zlP4P" Bounds="536,510" Alignment="Bottom" />
             </Node>
             <ControlPoint Id="G3xRmvdg1nKPbHv6tLkDHN" Bounds="518,212" />
             <ControlPoint Id="L58c4BSwbidPfj4U6lfE5E" Bounds="607,179" />
@@ -660,45 +656,6 @@
             <ControlPoint Id="ClRYUx1YAw0Lxo71jUbPxG" Bounds="384,614" />
             <ControlPoint Id="Ianjq5Pd9F8MNj9ni31DY4" Bounds="330,193" />
           </Canvas>
-          <Patch Id="NdacTA9Mx7DP25QD8q3v42" Name="Create" />
-          <Patch Id="T9VSlPZN0MBL0G0CDWMjCk" Name="Update">
-            <Pin Id="PrV2WqGEq2FLEHPyCV0FZ6" Name="Include Edges at Infinity" Kind="InputPin" DefaultValue="False">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="Qmzk0kDIKn6PEeggypKfdJ" Name="Include Rays" Kind="InputPin" DefaultValue="True">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="Q4f7rJrvA1dLrRjkifRkh6" Name="Input" Kind="InputPin" Bounds="330,193">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="WingedEdge" />
-                <p:TypeArguments>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="FortunePoly" />
-                  </TypeReference>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="FortuneEdge" />
-                  </TypeReference>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="FortuneVertex" />
-                  </TypeReference>
-                </p:TypeArguments>
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="CJXcXISNCwpM31o29ckDO2" Name="Output" Kind="OutputPin" Bounds="448,658">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Sequence" />
-                <p:TypeArguments>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="FortuneEdge" />
-                  </TypeReference>
-                </p:TypeArguments>
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <ProcessDefinition Id="OZNHvRXmoeBPQa0spkSFC2">
             <Fragment Id="D7nJHdc2SV9Ogj4Kmi7WW8" Patch="NdacTA9Mx7DP25QD8q3v42" Enabled="true" />
             <Fragment Id="L0i2K8C2uhjLL0tXmjBDra" Patch="T9VSlPZN0MBL0G0CDWMjCk" Enabled="true" />
@@ -724,6 +681,45 @@
           <Link Id="FpaVYutkITeORBWn9P1ynt" Ids="ClRYUx1YAw0Lxo71jUbPxG,CJXcXISNCwpM31o29ckDO2" IsHidden="true" />
           <Link Id="HCSxIJhzFedLpvARI17wTF" Ids="Ianjq5Pd9F8MNj9ni31DY4,EA05Ksv4eVLPQ5pJLj0V5X" />
           <Link Id="Dqy0m6gVJz0OC0KD2sz7HX" Ids="Q4f7rJrvA1dLrRjkifRkh6,Ianjq5Pd9F8MNj9ni31DY4" IsHidden="true" />
+          <Patch Id="NdacTA9Mx7DP25QD8q3v42" Name="Create" />
+          <Patch Id="T9VSlPZN0MBL0G0CDWMjCk" Name="Update">
+            <Pin Id="Q4f7rJrvA1dLrRjkifRkh6" Name="Input" Kind="InputPin" Bounds="330,193">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="WingedEdge" />
+                <p:TypeArguments>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="FortunePoly" />
+                  </TypeReference>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="FortuneEdge" />
+                  </TypeReference>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="FortuneVertex" />
+                  </TypeReference>
+                </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="PrV2WqGEq2FLEHPyCV0FZ6" Name="Include Edges at Infinity" Kind="InputPin" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="Qmzk0kDIKn6PEeggypKfdJ" Name="Include Rays" Kind="InputPin" DefaultValue="True">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="CJXcXISNCwpM31o29ckDO2" Name="Output" Kind="OutputPin" Bounds="448,658">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="Sequence" />
+                <p:TypeArguments>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="FortuneEdge" />
+                  </TypeReference>
+                </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
         </Patch>
       </Node>
       <!--
@@ -796,40 +792,6 @@
             <ControlPoint Id="GFq89OCE71AO6VLF5O3GM2" Bounds="384,569" />
             <ControlPoint Id="VEPEwgZ5ZpoMJS9lxYxNGY" Bounds="330,193" />
           </Canvas>
-          <Patch Id="NtGKheWJfRYL2bA11xelo1" Name="Create" />
-          <Patch Id="Hcnb2GYJBcFNYPCE8qJExZ" Name="Update">
-            <Pin Id="GQSW6YEXsjOMvKOyu93BGL" Name="Include Cells at Infinity" Kind="InputPin" DefaultValue="False">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="TYlUdTD6HYiLw2PylaZVbv" Name="Input" Kind="InputPin" Bounds="330,193">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="WingedEdge" />
-                <p:TypeArguments>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="FortunePoly" />
-                  </TypeReference>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="FortuneEdge" />
-                  </TypeReference>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="FortuneVertex" />
-                  </TypeReference>
-                </p:TypeArguments>
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="MKSP3R6hvkgMPvFUgKHGSq" Name="Output" Kind="OutputPin" Bounds="448,658">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Sequence" />
-                <p:TypeArguments>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="FortunePoly" />
-                  </TypeReference>
-                </p:TypeArguments>
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <ProcessDefinition Id="MPfdNg89CwFPGRuWP1Crwf">
             <Fragment Id="JKQzhKeeG40Nc5ErpODM0R" Patch="NtGKheWJfRYL2bA11xelo1" Enabled="true" />
             <Fragment Id="N6RH8vYEDJUMuW6IwVIetx" Patch="Hcnb2GYJBcFNYPCE8qJExZ" Enabled="true" />
@@ -848,6 +810,40 @@
           <Link Id="HYZECjJtO0zMCj6wsOIsXQ" Ids="TYlUdTD6HYiLw2PylaZVbv,VEPEwgZ5ZpoMJS9lxYxNGY" IsHidden="true" />
           <Link Id="Qmo9WvttYaNNg586YlOkHc" Ids="B56uM7TvsqVMV4gbMNMt08,SeV86vN5uMEQaNtCQFXZCL" />
           <Link Id="MRMkuy7Sl7OPy1Wz4thxIN" Ids="UXVReuDOWUSQY43T4UtRgO,OIItARFqavWOCCR355Yv7f" />
+          <Patch Id="NtGKheWJfRYL2bA11xelo1" Name="Create" />
+          <Patch Id="Hcnb2GYJBcFNYPCE8qJExZ" Name="Update">
+            <Pin Id="TYlUdTD6HYiLw2PylaZVbv" Name="Input" Kind="InputPin" Bounds="330,193">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="WingedEdge" />
+                <p:TypeArguments>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="FortunePoly" />
+                  </TypeReference>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="FortuneEdge" />
+                  </TypeReference>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="FortuneVertex" />
+                  </TypeReference>
+                </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="GQSW6YEXsjOMvKOyu93BGL" Name="Include Cells at Infinity" Kind="InputPin" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="MKSP3R6hvkgMPvFUgKHGSq" Name="Output" Kind="OutputPin" Bounds="448,658">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="Sequence" />
+                <p:TypeArguments>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="FortunePoly" />
+                  </TypeReference>
+                </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
         </Patch>
       </Node>
       <!--
@@ -862,133 +858,161 @@
         </p:NodeReference>
         <Patch Id="VJ7gZGgpaK5NRQ16oYrlUF">
           <Canvas Id="OVY83aBuaDKO7D0xWWi7hq" CanvasType="Group">
-            <Node Bounds="587,273" Id="OnBxyPgz2UOLEjdkLQuUBb">
-              <p:NodeReference LastCategoryFullName="DAP.CompGeom.FortunePoly" LastSymbolSource="Computational Geometry.dll">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <CategoryReference Kind="AssemblyCategory" Name="FortunePoly" />
-                <Choice Kind="OperationCallFlag" Name="FAtInfinity" />
-              </p:NodeReference>
-              <Pin Id="PFYLinGPrjXON2xl1wvdPK" Name="Input" Kind="StateInputPin" />
-              <Pin Id="RRAo2qK33ypLbheCpJjoOn" Name="Output" Kind="StateOutputPin" />
-              <Pin Id="DJM9srjfOLJLK7N8ODxxJz" Name="FAt Infinity" Kind="OutputPin" />
-            </Node>
-            <Node Bounds="597,508,55,26" Id="NErzLUyfPyMMv267pf2iIQ">
-              <p:NodeReference LastCategoryFullName="DAP.CompGeom.WePolygon" LastSymbolSource="Computational Geometry.dll">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="Vertices" />
-                <CategoryReference Kind="AssemblyCategory" Name="WePolygon" NeedsToBeDirectParent="true" />
-              </p:NodeReference>
-              <Pin Id="EvvHjx0Mtz1LXtNR2cipcG" Name="Input" Kind="StateInputPin" />
-              <Pin Id="B0gWDhqOI3BPE9VbjG1zQn" Name="Output" Kind="StateOutputPin" />
-              <Pin Id="VxG6NAWcs5JOiIqoZiMm3f" Name="Vertices" Kind="OutputPin" />
-            </Node>
-            <ControlPoint Id="CJOTZ3VCsSbO7d6LBPhyHo" Bounds="686,352" />
-            <Node Bounds="595,547,55,26" Id="EVxPYUegQdiMzAAxkxWC9u">
-              <p:NodeReference LastCategoryFullName="DAP.CompGeom.WePolygon" LastSymbolSource="Computational Geometry.dll">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="Edges" />
-                <CategoryReference Kind="AssemblyCategory" Name="WePolygon" NeedsToBeDirectParent="true" />
-              </p:NodeReference>
-              <Pin Id="Oth9gnyJ4DvOIztG9Esw2n" Name="Input" Kind="StateInputPin" />
-              <Pin Id="Ou71lrNzJOmM1pexoxs46q" Name="Output" Kind="StateOutputPin" />
-              <Pin Id="HqELA9iSqdsMcZ6foX6z3P" Name="Edges" Kind="OutputPin" />
-            </Node>
-            <ControlPoint Id="CmdGajchTyMM0xb7iK8qDT" Bounds="711,786" />
-            <Node Bounds="592,591,55,26" Id="QJDi8pFfZK5MrG8OcQNv2p">
-              <p:NodeReference LastCategoryFullName="DAP.CompGeom.WePolygon" LastSymbolSource="Computational Geometry.dll">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="Cookie" />
-                <CategoryReference Kind="AssemblyCategory" Name="WePolygon" NeedsToBeDirectParent="true" />
-              </p:NodeReference>
-              <Pin Id="CipyJJbxzmAPOxUKxTGGAT" Name="Input" Kind="StateInputPin" />
-              <Pin Id="EpE0uLNKKWqLCfjfnz7DQy" Name="Output" Kind="StateOutputPin" />
-              <Pin Id="UdrLCPTG5d4OsQK3B9oKGT" Name="Cookie" Kind="OutputPin" />
-            </Node>
-            <Node Bounds="665,672,140,81" Id="NZjQlkK3rg4OFYZugfrjwj">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+            <ControlPoint Id="CJOTZ3VCsSbO7d6LBPhyHo" Bounds="613,796" />
+            <ControlPoint Id="CmdGajchTyMM0xb7iK8qDT" Bounds="706,796" />
+            <ControlPoint Id="AGNlGzwZdUlNVPqqDUdgaJ" Bounds="792,182" />
+            <ControlPoint Id="RUcYmbykP5XOS7uHzADkyk" Bounds="961,796" />
+            <ControlPoint Id="FOxZmxcxyJzOB56BaFqa82" Bounds="492,175" />
+            <ControlPoint Id="K1UufZeBJGyMb75I3YsDHw" Bounds="863,796" />
+            <Node Bounds="495,260,510,501" Id="Vud56DelDosLdsMI4zZMFo">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
-                <CategoryReference Kind="Category" Name="Primitive" />
+                <FullNameCategoryReference ID="Primitive" />
               </p:NodeReference>
-              <Pin Id="LHeGr8ksIxsOFa2DEUTUBR" Name="Condition" Kind="InputPin" />
-              <Patch Id="DPHKK27FSsRPHX0cSvsO3g" ManuallySortedPins="true">
-                <Patch Id="UUBijLD2mcAMJES2cV849u" Name="Create" ManuallySortedPins="true" />
-                <Patch Id="ScdZ2oa9UA5LL7ddnIM537" Name="Then" ManuallySortedPins="true" />
-                <Pad Id="Q1EjzTT4de6Nsxk0JKGmwQ" Comment="Index" Bounds="711,720,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Integer32" />
-                  </p:TypeAnnotation>
-                  <p:ValueBoxSettings />
-                </Pad>
-              </Patch>
-              <ControlPoint Id="Im1u5EqH9lwQb4v751LX7y" Bounds="708,678" Alignment="Top" />
-              <ControlPoint Id="G5DGVdNvnC7Lhyabybm9Nx" Bounds="708,747" Alignment="Bottom" />
-            </Node>
-            <Node Bounds="587,378,72,26" Id="DPhPV4kXhWtNL4yGKjB204">
-              <p:NodeReference LastCategoryFullName="2D.Voronoi.FortunePoly" LastSymbolSource="VL.2D.Voronoi.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="RealVertices" />
-                <PinReference Kind="InputPin" Name="Ray Length" />
-              </p:NodeReference>
-              <Pin Id="E7YjBG9UHlKQUb9GR5wHOD" Name="Input" Kind="StateInputPin" />
-              <Pin Id="GMw8oCpxmDpNKQ4xuHq37L" Name="Ray Length" Kind="InputPin" />
-              <Pin Id="Cvlh3KkJuChL5rEAV3rrXn" Name="Output" Kind="StateOutputPin" />
-              <Pin Id="GZQ9BUYM8xcOPDKxu9Mqs5" Name="Result" Kind="OutputPin" />
-            </Node>
-            <ControlPoint Id="AGNlGzwZdUlNVPqqDUdgaJ" Bounds="718,290" />
-            <Node Bounds="814,473,80,80" Id="F6DjX0KI4mVOprSy2BPJTy">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
-                <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
-                <CategoryReference Kind="Category" Name="Primitive" />
-              </p:NodeReference>
-              <Pin Id="RIsDi7S2UL2PLRNJBfY76F" Name="Break" Kind="OutputPin" />
-              <Patch Id="MMIMDSsmTYgL5Ay6uO8DFe" ManuallySortedPins="true">
-                <Patch Id="MQXftGwjYYrOsbRPe8TBYG" Name="Create" ManuallySortedPins="true" />
-                <Patch Id="PEnMNHfB7ppP6gISk4x4y4" Name="Update" ManuallySortedPins="true" />
-                <Patch Id="Lxs2b6vDeWmOt301fa5rqT" Name="Dispose" ManuallySortedPins="true" />
-                <Node Bounds="842,510" Id="LK7SctDYFzJOAHPTwvK3ec">
+              <Pin Id="S83wV6qgzP8NAdxlIXhemb" Name="Condition" Kind="InputPin" />
+              <Patch Id="IsKMWGq7N8JPSXe4e4X6QT" ManuallySortedPins="true">
+                <Patch Id="PJFVzSoSPdOMTkiK4wzWlH" Name="Create" ManuallySortedPins="true" />
+                <Patch Id="V6C6vGFG3mWOYOiPSLP1or" Name="Then" ManuallySortedPins="true" />
+                <Node Bounds="587,273" Id="OnBxyPgz2UOLEjdkLQuUBb">
+                  <p:NodeReference LastCategoryFullName="DAP.CompGeom.FortunePoly" LastSymbolSource="Computational Geometry.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="AssemblyCategory" Name="FortunePoly" />
+                    <Choice Kind="OperationCallFlag" Name="FAtInfinity" />
+                  </p:NodeReference>
+                  <Pin Id="PFYLinGPrjXON2xl1wvdPK" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="RRAo2qK33ypLbheCpJjoOn" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="DJM9srjfOLJLK7N8ODxxJz" Name="FAt Infinity" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="597,508,55,26" Id="NErzLUyfPyMMv267pf2iIQ">
+                  <p:NodeReference LastCategoryFullName="DAP.CompGeom.WePolygon" LastSymbolSource="Computational Geometry.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Vertices" />
+                    <CategoryReference Kind="AssemblyCategory" Name="WePolygon" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="EvvHjx0Mtz1LXtNR2cipcG" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="B0gWDhqOI3BPE9VbjG1zQn" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="VxG6NAWcs5JOiIqoZiMm3f" Name="Vertices" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="595,547,55,26" Id="EVxPYUegQdiMzAAxkxWC9u">
+                  <p:NodeReference LastCategoryFullName="DAP.CompGeom.WePolygon" LastSymbolSource="Computational Geometry.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Edges" />
+                    <CategoryReference Kind="AssemblyCategory" Name="WePolygon" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="Oth9gnyJ4DvOIztG9Esw2n" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="Ou71lrNzJOmM1pexoxs46q" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="HqELA9iSqdsMcZ6foX6z3P" Name="Edges" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="592,591,55,26" Id="QJDi8pFfZK5MrG8OcQNv2p">
+                  <p:NodeReference LastCategoryFullName="DAP.CompGeom.WePolygon" LastSymbolSource="Computational Geometry.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Cookie" />
+                    <CategoryReference Kind="AssemblyCategory" Name="WePolygon" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="CipyJJbxzmAPOxUKxTGGAT" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="EpE0uLNKKWqLCfjfnz7DQy" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="UdrLCPTG5d4OsQK3B9oKGT" Name="Cookie" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="660,667,141,82" Id="NZjQlkK3rg4OFYZugfrjwj">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                    <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                    <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                    <CategoryReference Kind="Category" Name="Primitive" />
+                  </p:NodeReference>
+                  <Pin Id="LHeGr8ksIxsOFa2DEUTUBR" Name="Condition" Kind="InputPin" />
+                  <Patch Id="DPHKK27FSsRPHX0cSvsO3g" ManuallySortedPins="true">
+                    <Patch Id="UUBijLD2mcAMJES2cV849u" Name="Create" ManuallySortedPins="true" />
+                    <Patch Id="ScdZ2oa9UA5LL7ddnIM537" Name="Then" ManuallySortedPins="true" />
+                    <Pad Id="Q1EjzTT4de6Nsxk0JKGmwQ" Comment="Index" Bounds="706,715,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
+                      <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                        <Choice Kind="TypeFlag" Name="Integer32" />
+                      </p:TypeAnnotation>
+                    </Pad>
+                  </Patch>
+                  <ControlPoint Id="Im1u5EqH9lwQb4v751LX7y" Bounds="703,673" Alignment="Top" />
+                  <ControlPoint Id="G5DGVdNvnC7Lhyabybm9Nx" Bounds="703,743" Alignment="Bottom" />
+                </Node>
+                <Node Bounds="587,378,72,26" Id="DPhPV4kXhWtNL4yGKjB204">
+                  <p:NodeReference LastCategoryFullName="DAP.CompGeom.FortunePoly" LastSymbolSource="Computational Geometry.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="RealVertices" />
+                    <PinReference Kind="InputPin" Name="Ray Length" />
+                  </p:NodeReference>
+                  <Pin Id="E7YjBG9UHlKQUb9GR5wHOD" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="GMw8oCpxmDpNKQ4xuHq37L" Name="Ray Length" Kind="InputPin" />
+                  <Pin Id="Cvlh3KkJuChL5rEAV3rrXn" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="GZQ9BUYM8xcOPDKxu9Mqs5" Name="Result" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="814,473,80,80" Id="F6DjX0KI4mVOprSy2BPJTy">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                    <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                    <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
+                    <CategoryReference Kind="Category" Name="Primitive" />
+                  </p:NodeReference>
+                  <Pin Id="RIsDi7S2UL2PLRNJBfY76F" Name="Break" Kind="OutputPin" />
+                  <Patch Id="MMIMDSsmTYgL5Ay6uO8DFe" ManuallySortedPins="true">
+                    <Patch Id="MQXftGwjYYrOsbRPe8TBYG" Name="Create" ManuallySortedPins="true" />
+                    <Patch Id="PEnMNHfB7ppP6gISk4x4y4" Name="Update" ManuallySortedPins="true" />
+                    <Patch Id="Lxs2b6vDeWmOt301fa5rqT" Name="Dispose" ManuallySortedPins="true" />
+                    <Node Bounds="842,510" Id="LK7SctDYFzJOAHPTwvK3ec">
+                      <p:NodeReference LastCategoryFullName="2D.Voronoi" LastSymbolSource="VL.2D.Voronoi.vl">
+                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <Choice Kind="OperationCallFlag" Name="PointDToVector2" />
+                      </p:NodeReference>
+                      <Pin Id="PveL6DT32JqPuGk1c9YA8o" Name="Input" Kind="InputPin" />
+                      <Pin Id="DjzHPcJvrPmMjp1hDMsNA5" Name="Output" Kind="OutputPin" />
+                    </Node>
+                  </Patch>
+                  <ControlPoint Id="NVKoCbTDNQBPGyGjrYQLDY" Bounds="842,480" Alignment="Top" />
+                  <ControlPoint Id="ONxhZzQobLKNU1pGwVAVxt" Bounds="847,554" Alignment="Bottom" />
+                </Node>
+                <Node Bounds="672,638,48,19" Id="OQSoxwWbl5jPxYxoxVJGbv">
+                  <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="CastAs" />
+                  </p:NodeReference>
+                  <Pin Id="Izvf2LlSqJKMLz0qs5Algt" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="E0bOiKl2UASODjVvoWpgAp" Name="Default" Kind="InputPin" />
+                  <Pin Id="QCZsPtRV6syPvafzMLQDc8" Name="Result" Kind="OutputPin" />
+                  <Pin Id="NPw6olzmPbnPKQulit85nW" Name="Success" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="589,435,75,26" Id="V7CuCVjYJP5P2aeFuKIQxn">
+                  <p:NodeReference LastCategoryFullName="DAP.CompGeom.FortunePoly" LastSymbolSource="Computational Geometry.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="AssemblyCategory" Name="FortunePoly" />
+                    <Choice Kind="OperationCallFlag" Name="VoronoiPoint" />
+                  </p:NodeReference>
+                  <Pin Id="RzWxeDWL84nN0tpiuJNKCj" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="JEzW2brKQ8CNhIaeRRu7Pr" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="BWgDgUEf6dWPUejGd10A0Q" Name="Voronoi Point" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="689,490,93,19" Id="FCWarCVM11oN5Xg4jDfhiT">
                   <p:NodeReference LastCategoryFullName="2D.Voronoi" LastSymbolSource="VL.2D.Voronoi.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="PointDToVector2" />
                   </p:NodeReference>
-                  <Pin Id="PveL6DT32JqPuGk1c9YA8o" Name="Input" Kind="InputPin" />
-                  <Pin Id="DjzHPcJvrPmMjp1hDMsNA5" Name="Output" Kind="OutputPin" />
+                  <Pin Id="UeV1qIYwHhxN0Uwx80zAQQ" Name="Input" Kind="InputPin" />
+                  <Pin Id="CJ1im4M8ci0LLBsIWDcYA0" Name="Output" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="NVKoCbTDNQBPGyGjrYQLDY" Bounds="842,480" Alignment="Top" />
-              <ControlPoint Id="ONxhZzQobLKNU1pGwVAVxt" Bounds="847,554" Alignment="Bottom" />
+              <ControlPoint Id="CN20nZavy4rQTzka2vgUgw" Bounds="707,764" Alignment="Bottom" />
+              <ControlPoint Id="AULYSN3svjhMV3L7vN1o7R" Bounds="707,256" Alignment="Top" />
+              <ControlPoint Id="MCN1iIdHSBiPTdCkHVEnCO" Bounds="861,764" Alignment="Bottom" />
+              <ControlPoint Id="KjR1yL79SCdLohQoMV7ujk" Bounds="861,256" Alignment="Top" />
+              <ControlPoint Id="HvB038zK8ZtODWVvbx82JS" Bounds="963,764" Alignment="Bottom" />
+              <ControlPoint Id="QZjBPjrbmUgQJgAX78mVTl" Bounds="963,256" Alignment="Top" />
+              <ControlPoint Id="K3ePKdOYK8ULaqimsJBl0d" Bounds="618,764" Alignment="Bottom" />
+              <ControlPoint Id="SOPSMtcXpiHMm72QCANPDA" Bounds="618,256" Alignment="Top" />
             </Node>
-            <ControlPoint Id="RUcYmbykP5XOS7uHzADkyk" Bounds="847,611" />
-            <ControlPoint Id="FOxZmxcxyJzOB56BaFqa82" Bounds="583,236" />
-            <Node Bounds="677,643" Id="OQSoxwWbl5jPxYxoxVJGbv">
+            <Node Bounds="487,204,65,19" Id="NXLJ4pJTierLlNR2JvWrA7">
               <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="CastAs" />
+                <Choice Kind="OperationCallFlag" Name="IsAssigned" />
               </p:NodeReference>
-              <Pin Id="Izvf2LlSqJKMLz0qs5Algt" Name="Input" Kind="StateInputPin" />
-              <Pin Id="E0bOiKl2UASODjVvoWpgAp" Name="Default" Kind="InputPin" />
-              <Pin Id="QCZsPtRV6syPvafzMLQDc8" Name="Result" Kind="OutputPin" />
-              <Pin Id="NPw6olzmPbnPKQulit85nW" Name="Success" Kind="OutputPin" />
-            </Node>
-            <Node Bounds="589,435,75,26" Id="V7CuCVjYJP5P2aeFuKIQxn">
-              <p:NodeReference LastCategoryFullName="DAP.CompGeom.FortunePoly" LastSymbolSource="Computational Geometry.dll">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <CategoryReference Kind="AssemblyCategory" Name="FortunePoly" />
-                <Choice Kind="OperationCallFlag" Name="VoronoiPoint" />
-              </p:NodeReference>
-              <Pin Id="RzWxeDWL84nN0tpiuJNKCj" Name="Input" Kind="StateInputPin" />
-              <Pin Id="JEzW2brKQ8CNhIaeRRu7Pr" Name="Output" Kind="StateOutputPin" />
-              <Pin Id="BWgDgUEf6dWPUejGd10A0Q" Name="Voronoi Point" Kind="OutputPin" />
-            </Node>
-            <ControlPoint Id="K1UufZeBJGyMb75I3YsDHw" Bounds="692,527" />
-            <Node Bounds="689,490,93,19" Id="FCWarCVM11oN5Xg4jDfhiT">
-              <p:NodeReference LastCategoryFullName="2D.Voronoi" LastSymbolSource="VL.2D.Voronoi.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="PointDToVector2" />
-              </p:NodeReference>
-              <Pin Id="UeV1qIYwHhxN0Uwx80zAQQ" Name="Input" Kind="InputPin" />
-              <Pin Id="CJ1im4M8ci0LLBsIWDcYA0" Name="Output" Kind="OutputPin" />
+              <Pin Id="ULT6mLKuXjmOMDaKv28qVO" Name="X" Kind="InputPin" />
+              <Pin Id="SLqYc5DoVdiMajqXlU31Uj" Name="Result" Kind="OutputPin" />
+              <Pin Id="VwUtuVyTuwAM8Q5B5UIEaE" Name="Not Assigned" Kind="OutputPin" />
             </Node>
           </Canvas>
           <Patch Id="SlpVMEExs1DMHRDSCLUsk3" Name="Create" />
@@ -1012,32 +1036,42 @@
             <Fragment Id="R97jjQuYiN4QDlYZNuHO3D" Patch="SlpVMEExs1DMHRDSCLUsk3" Enabled="true" />
             <Fragment Id="SnePQjS7uRNMKO4HeNvjiK" Patch="HmvrU5qZeCYNmF1yi241HM" Enabled="true" />
           </ProcessDefinition>
-          <Link Id="E7KasUv9TrJPHjE0ov6Vwh" Ids="DJM9srjfOLJLK7N8ODxxJz,CJOTZ3VCsSbO7d6LBPhyHo" />
           <Link Id="CnR4a0ARvpsLeiHpNQ121a" Ids="CJOTZ3VCsSbO7d6LBPhyHo,OrnRd54qK7LOKMdDxaMN2R" IsHidden="true" />
-          <Link Id="Ai8p90ANvXpL2YBiWOZexY" Ids="B0gWDhqOI3BPE9VbjG1zQn,Oth9gnyJ4DvOIztG9Esw2n" />
           <Link Id="IuDiB7OhVVsPH7faS1z5Nu" Ids="CmdGajchTyMM0xb7iK8qDT,TdcwyDH0rwJOJ16pcy2Eid" IsHidden="true" />
+          <Link Id="BCDS5n1OIgrPXG34NPadRv" Ids="AGNlGzwZdUlNVPqqDUdgaJ,GMw8oCpxmDpNKQ4xuHq37L" />
+          <Link Id="McTgjeqXNZdPLG5gckpqDd" Ids="Qr6gcYIMYobPAOvJroGJor,AGNlGzwZdUlNVPqqDUdgaJ" IsHidden="true" />
+          <Link Id="DK1Q9fvTUmGNF48hgmRl8o" Ids="RUcYmbykP5XOS7uHzADkyk,Qexed7dIk21LZOwbFMjylI" IsHidden="true" />
+          <Link Id="AldEszqx2f6Qa7oJUKgDQg" Ids="FOxZmxcxyJzOB56BaFqa82,PFYLinGPrjXON2xl1wvdPK" />
+          <Link Id="EgX9KtMXBDgM1gMBpu6oYc" Ids="Gd5eVXaamrWMXuIJPpo8xB,FOxZmxcxyJzOB56BaFqa82" IsHidden="true" />
+          <Link Id="H5RTBsvmtS5PafqSrTPNf2" Ids="K1UufZeBJGyMb75I3YsDHw,M9C9qeU17nXOao7A2vU3lq" IsHidden="true" />
+          <Link Id="Ai8p90ANvXpL2YBiWOZexY" Ids="B0gWDhqOI3BPE9VbjG1zQn,Oth9gnyJ4DvOIztG9Esw2n" />
           <Link Id="KOwLCqlRWSHLEMpVbKxLEX" Ids="Ou71lrNzJOmM1pexoxs46q,CipyJJbxzmAPOxUKxTGGAT" />
           <Link Id="MevdQZEO4NMMCTqcNlo4TJ" Ids="DJM9srjfOLJLK7N8ODxxJz,LHeGr8ksIxsOFa2DEUTUBR" />
           <Link Id="LFyTW6CDoLyOyqyTVyY7vF" Ids="Im1u5EqH9lwQb4v751LX7y,G5DGVdNvnC7Lhyabybm9Nx" IsFeedback="true" />
           <Link Id="SThaCgVm2X5NYfd8kqwckh" Ids="UdrLCPTG5d4OsQK3B9oKGT,Izvf2LlSqJKMLz0qs5Algt" />
-          <Link Id="J7A4IHu0ky8LIoV3F8EBeq" Ids="G5DGVdNvnC7Lhyabybm9Nx,CmdGajchTyMM0xb7iK8qDT" />
           <Link Id="Q9ZY9tg6QJHPBkEVkoKzoC" Ids="Q1EjzTT4de6Nsxk0JKGmwQ,G5DGVdNvnC7Lhyabybm9Nx" />
           <Link Id="BqcBEV4PYhANKn4dTye0I6" Ids="RRAo2qK33ypLbheCpJjoOn,E7YjBG9UHlKQUb9GR5wHOD" />
-          <Link Id="BCDS5n1OIgrPXG34NPadRv" Ids="AGNlGzwZdUlNVPqqDUdgaJ,GMw8oCpxmDpNKQ4xuHq37L" />
-          <Link Id="McTgjeqXNZdPLG5gckpqDd" Ids="Qr6gcYIMYobPAOvJroGJor,AGNlGzwZdUlNVPqqDUdgaJ" IsHidden="true" />
           <Link Id="CNdHkSXicJJM9xS51EDeqw" Ids="GZQ9BUYM8xcOPDKxu9Mqs5,NVKoCbTDNQBPGyGjrYQLDY" />
           <Link Id="LS4LNt5bSJBLZsXAEaBjDu" Ids="NVKoCbTDNQBPGyGjrYQLDY,PveL6DT32JqPuGk1c9YA8o" />
           <Link Id="OFTyq0rPJUNMI22rMRX7GT" Ids="DjzHPcJvrPmMjp1hDMsNA5,ONxhZzQobLKNU1pGwVAVxt" />
-          <Link Id="QWNW2o7zfyZMBJHKDLtStQ" Ids="ONxhZzQobLKNU1pGwVAVxt,RUcYmbykP5XOS7uHzADkyk" />
-          <Link Id="DK1Q9fvTUmGNF48hgmRl8o" Ids="RUcYmbykP5XOS7uHzADkyk,Qexed7dIk21LZOwbFMjylI" IsHidden="true" />
-          <Link Id="AldEszqx2f6Qa7oJUKgDQg" Ids="FOxZmxcxyJzOB56BaFqa82,PFYLinGPrjXON2xl1wvdPK" />
-          <Link Id="EgX9KtMXBDgM1gMBpu6oYc" Ids="Gd5eVXaamrWMXuIJPpo8xB,FOxZmxcxyJzOB56BaFqa82" IsHidden="true" />
           <Link Id="TMsdctalUbWOc2peFIeLcf" Ids="QCZsPtRV6syPvafzMLQDc8,Im1u5EqH9lwQb4v751LX7y" />
           <Link Id="N74ZyNoDXEqQStUkbYTmoW" Ids="Cvlh3KkJuChL5rEAV3rrXn,RzWxeDWL84nN0tpiuJNKCj" />
           <Link Id="IkDOzQFWG9JNM2RMz01tVt" Ids="JEzW2brKQ8CNhIaeRRu7Pr,EvvHjx0Mtz1LXtNR2cipcG" />
-          <Link Id="H5RTBsvmtS5PafqSrTPNf2" Ids="K1UufZeBJGyMb75I3YsDHw,M9C9qeU17nXOao7A2vU3lq" IsHidden="true" />
           <Link Id="OtHOWb2v9y2MmBPSq82wjS" Ids="BWgDgUEf6dWPUejGd10A0Q,UeV1qIYwHhxN0Uwx80zAQQ" />
-          <Link Id="OVreHKw43LHPECQsvlzC5S" Ids="CJ1im4M8ci0LLBsIWDcYA0,K1UufZeBJGyMb75I3YsDHw" />
+          <Link Id="F2EZRoZPbQrPxSP422i6d7" Ids="AULYSN3svjhMV3L7vN1o7R,CN20nZavy4rQTzka2vgUgw" IsFeedback="true" />
+          <Link Id="SZKs7n0FAJlM4KRH8QSRvR" Ids="G5DGVdNvnC7Lhyabybm9Nx,CN20nZavy4rQTzka2vgUgw" />
+          <Link Id="QHvKDQmLsT8PMubYm3381V" Ids="CN20nZavy4rQTzka2vgUgw,CmdGajchTyMM0xb7iK8qDT" />
+          <Link Id="R0eaWIlbTtiOm7oEfikOqo" Ids="KjR1yL79SCdLohQoMV7ujk,MCN1iIdHSBiPTdCkHVEnCO" IsFeedback="true" />
+          <Link Id="DhN4M7jpQ3vLowpxTrzIyH" Ids="CJ1im4M8ci0LLBsIWDcYA0,MCN1iIdHSBiPTdCkHVEnCO" />
+          <Link Id="GqOhbHeJxzyMCI2uHjhWDo" Ids="MCN1iIdHSBiPTdCkHVEnCO,K1UufZeBJGyMb75I3YsDHw" />
+          <Link Id="TOP9e1EfQeYNws5t1As9Zr" Ids="QZjBPjrbmUgQJgAX78mVTl,HvB038zK8ZtODWVvbx82JS" IsFeedback="true" />
+          <Link Id="DwQGumpDKUQOe9GfRCiP1J" Ids="ONxhZzQobLKNU1pGwVAVxt,HvB038zK8ZtODWVvbx82JS" />
+          <Link Id="Hqa0L2ylDFLLyVm3HHhSVJ" Ids="HvB038zK8ZtODWVvbx82JS,RUcYmbykP5XOS7uHzADkyk" />
+          <Link Id="FX9qmEaAJjFNPQgBfxcp2S" Ids="SOPSMtcXpiHMm72QCANPDA,K3ePKdOYK8ULaqimsJBl0d" IsFeedback="true" />
+          <Link Id="McojkIUZL6WPwbJLNDXJIg" Ids="DJM9srjfOLJLK7N8ODxxJz,K3ePKdOYK8ULaqimsJBl0d" />
+          <Link Id="BpH6kVcbU8rOlut8Y35rBa" Ids="K3ePKdOYK8ULaqimsJBl0d,CJOTZ3VCsSbO7d6LBPhyHo" />
+          <Link Id="OS4rWjGLXubMyCdVKv8T6k" Ids="FOxZmxcxyJzOB56BaFqa82,ULT6mLKuXjmOMDaKv28qVO" />
+          <Link Id="A5iYVeajGhpQTbnc5hE1B9" Ids="SLqYc5DoVdiMajqXlU31Uj,S83wV6qgzP8NAdxlIXhemb" />
         </Patch>
       </Node>
       <!--
@@ -1056,7 +1090,7 @@
             <ControlPoint Id="Ldcz2SeUIlxOCPki0ZPTwx" Bounds="450,1009" />
             <ControlPoint Id="Fe6bpA506n7MeDzEHc8hiZ" Bounds="556,1009" />
             <Node Bounds="316,316,374,659" Id="HWpHKHPFCBWMouuMpN7cYg">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                 <FullNameCategoryReference ID="Primitive" />
@@ -1064,6 +1098,9 @@
               <Pin Id="VRo2bLi5DfEL0dxWasFfmm" Name="Force" Kind="InputPin" />
               <Pin Id="T40Mcz1hYMdMJ1zhJJk5UX" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="VR2oWfAwvvGOCiE9cAr3AQ" Name="Has Changed" Kind="OutputPin" />
+              <ControlPoint Id="IB7rpAcNhfmPv5e30JLBG9" Bounds="328,323" Alignment="Top" />
+              <ControlPoint Id="H65VBUfWW7fMsCkqw7IKSE" Bounds="450,969" Alignment="Bottom" />
+              <ControlPoint Id="Aps9b59nO7VPCyxSlFIsAI" Bounds="556,969" Alignment="Bottom" />
               <Patch Id="HXT48QHJBZSP5buiYqqnFF" ManuallySortedPins="true">
                 <Patch Id="Czk4wb48T4zOs3br37DHhZ" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="QI4t2NF8Ul1N1Yucfj4KH6" Name="Then" ManuallySortedPins="true" />
@@ -1113,7 +1150,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="377,564,295,378" Id="B9BULDwrTcwLsBCXLcnwau">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                     <CategoryReference Kind="Category" Name="Primitive" />
@@ -1149,10 +1186,9 @@
                       <Pin Id="UmS8iPvPaLZLP2t36LjBTQ" Name="Poly Left" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="433,806,75,26" Id="OOJ8cgUv4GuORaivVduDQM">
-                      <p:NodeReference LastCategoryFullName="2D.Voronoi.FortunePoly" LastSymbolSource="VL.2D.Voronoi.vl">
+                      <p:NodeReference LastCategoryFullName="DAP.CompGeom.FortunePoly" LastSymbolSource="Computational Geometry.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="VoronoiPoint" />
-                        <CategoryReference Kind="ClassType" Name="FortunePoly" NeedsToBeDirectParent="true" />
                       </p:NodeReference>
                       <Pin Id="SD0mv1iFjsAPb2BKPJUd5w" Name="Input" Kind="StateInputPin" />
                       <Pin Id="Scs2xpdEcAKLbDEVomRo10" Name="Output" Kind="StateOutputPin" />
@@ -1178,10 +1214,9 @@
                       <Pin Id="DgmU0HCmgf6MNba6TQOuUj" Name="Poly Right" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="566,806,75,26" Id="FczYVm0rFgOO8Lq0ccE1mY">
-                      <p:NodeReference LastCategoryFullName="2D.Voronoi.FortunePoly" LastSymbolSource="VL.2D.Voronoi.vl">
+                      <p:NodeReference LastCategoryFullName="DAP.CompGeom.FortunePoly" LastSymbolSource="Computational Geometry.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="VoronoiPoint" />
-                        <CategoryReference Kind="ClassType" Name="FortunePoly" NeedsToBeDirectParent="true" />
                       </p:NodeReference>
                       <Pin Id="UR7nm7iJNjjPHRsQCkYdlO" Name="Input" Kind="StateInputPin" />
                       <Pin Id="T7plgNSMMOZOr9Y5ZdVd84" Name="Output" Kind="StateOutputPin" />
@@ -1203,9 +1238,6 @@
                   <ControlPoint Id="ICOWOOmY2IhOmoAWlpmiXy" Bounds="555,935" Alignment="Bottom" />
                 </Node>
               </Patch>
-              <ControlPoint Id="IB7rpAcNhfmPv5e30JLBG9" Bounds="328,323" Alignment="Top" />
-              <ControlPoint Id="H65VBUfWW7fMsCkqw7IKSE" Bounds="450,969" Alignment="Bottom" />
-              <ControlPoint Id="Aps9b59nO7VPCyxSlFIsAI" Bounds="556,969" Alignment="Bottom" />
             </Node>
           </Canvas>
           <Patch Id="B5ObeZKvgDHMK7WjMgAOuG" Name="Create" />
@@ -1396,11 +1428,11 @@
     ************************ CreateDefault ************************
 
 -->
-              <Node Name="CreateDefault" Bounds="557,296,80,80" Id="A4wCfSTXg5CNhL81uPgA7J">
+              <Node Name="CreateDefault" Bounds="582,314,94,118" Id="A4wCfSTXg5CNhL81uPgA7J">
                 <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
                   <Choice Kind="OperationDefinition" Name="Operation" />
                 </p:NodeReference>
-                <Patch Id="JRBofLFMT0RMPAfbpSuxuz">
+                <Patch Id="JRBofLFMT0RMPAfbpSuxuz" IsGeneric="true" ExplicitTypeParameters="T1,T2,T3">
                   <Node Bounds="595,337" Id="S2TJkoDPDENN1ZSBjEbEBm">
                     <p:NodeReference LastCategoryFullName="DAP.CompGeom.WingedEdge`3" LastSymbolSource="Computational Geometry.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -1409,60 +1441,30 @@
                     </p:NodeReference>
                     <Pin Id="DSVwdtF8acELUKdGID8b7u" Name="Output" Kind="StateOutputPin" />
                   </Node>
-                  <ControlPoint Id="FaaY1p1xpwjNoWE7fq7Dk1" Bounds="600,382" />
+                  <ControlPoint Id="FaaY1p1xpwjNoWE7fq7Dk1" Bounds="596,415" />
                   <Link Id="EmSDWjUQBgqNXTto4lkWVi" Ids="DSVwdtF8acELUKdGID8b7u,FaaY1p1xpwjNoWE7fq7Dk1" />
-                  <Pin Id="U13JuWUbtpDOMcly6ian8B" Name="Output" Kind="OutputPin" Bounds="600,381" />
+                  <Pin Id="U13JuWUbtpDOMcly6ian8B" Name="Output" Kind="OutputPin" Bounds="600,381">
+                    <p:TypeAnnotation>
+                      <Choice Kind="TypeFlag" Name="WingedEdge" />
+                      <p:TypeArguments>
+                        <TypeReference>
+                          <Choice Kind="TypeFlag" Name="T1" />
+                        </TypeReference>
+                        <TypeReference>
+                          <Choice Kind="TypeFlag" Name="T2" />
+                        </TypeReference>
+                        <TypeReference>
+                          <Choice Kind="TypeFlag" Name="T3" />
+                        </TypeReference>
+                      </p:TypeArguments>
+                    </p:TypeAnnotation>
+                  </Pin>
                   <Link Id="FM7whSEsZMbQaOPpI4dfan" Ids="FaaY1p1xpwjNoWE7fq7Dk1,U13JuWUbtpDOMcly6ian8B" IsHidden="true" />
                 </Patch>
               </Node>
             </Canvas>
             <ProcessDefinition Id="DrvX3riP6kZPV9XtiN2ZL9" IsHidden="true">
               <Fragment Id="BWyAK3zoqtrOx1l5X6iuii" Patch="A4wCfSTXg5CNhL81uPgA7J" Enabled="true" />
-            </ProcessDefinition>
-          </Patch>
-        </Node>
-        <!--
-
-    ************************ FortunePoly ************************
-
--->
-        <Node Name="FortunePoly" Bounds="873,372" Id="AI4PMQmkO7DMa9n4y8DouU">
-          <p:NodeReference>
-            <Choice Kind="ForwardDefinition" Name="Forward" />
-            <FullNameCategoryReference ID="Primitive" />
-          </p:NodeReference>
-          <p:TypeAnnotation LastCategoryFullName="DAP.CompGeom" LastSymbolSource="Computational Geometry.dll">
-            <Choice Kind="TypeFlag" Name="FortunePoly" />
-          </p:TypeAnnotation>
-          <Patch Id="J4PA157YDdpMJJQBTMWbWU">
-            <Canvas Id="Iq6GOsUtEBbPRqlB5TwmXq" CanvasType="Group">
-              <!--
-
-    ************************ CreateDefault ************************
-
--->
-              <Node Name="CreateDefault" Bounds="582,345,80,80" Id="Al2wkv52K6MOftEcVnMOin">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
-                  <Choice Kind="OperationDefinition" Name="Operation" />
-                </p:NodeReference>
-                <Patch Id="PlBiMNX5J6MNJGNfjiHYBi">
-                  <Node Bounds="607,372" Id="VBfZ41eJW3hNvjd8R0H45u">
-                    <p:NodeReference LastCategoryFullName="DAP.CompGeom.WePolygon" LastSymbolSource="Computational Geometry.dll">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="AssemblyCategory" Name="WePolygon" />
-                      <Choice Kind="OperationCallFlag" Name="Create" />
-                    </p:NodeReference>
-                    <Pin Id="DhXUgdKWDQQMHFvL2OeLTw" Name="Output" Kind="StateOutputPin" />
-                  </Node>
-                  <ControlPoint Id="LaZ0hNuGeOXMMRC8LQ4Upg" Bounds="613,438" />
-                  <Link Id="DG8mklJ6OpIMuUcTJ81S7K" Ids="DhXUgdKWDQQMHFvL2OeLTw,LaZ0hNuGeOXMMRC8LQ4Upg" />
-                  <Pin Id="VQ940FQ1UuVLsS1pzuPrGP" Name="Output" Kind="OutputPin" Bounds="613,438" />
-                  <Link Id="IhVCGR75vJWL8RTUQ4ulAf" Ids="LaZ0hNuGeOXMMRC8LQ4Upg,VQ940FQ1UuVLsS1pzuPrGP" IsHidden="true" />
-                </Patch>
-              </Node>
-            </Canvas>
-            <ProcessDefinition Id="Ci6rFw5ZiRUOCYlQKlnGO4" IsHidden="true">
-              <Fragment Id="DOwyLotlEstMY91Gz2co5E" Patch="Al2wkv52K6MOftEcVnMOin" Enabled="true" />
             </ProcessDefinition>
           </Patch>
         </Node>
@@ -1489,6 +1491,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HzBPdUrtLCQP9mx1JaHQCd" Location="VL.Skia" Version="2019.1.0-0437-g96c37ff9f9" />
+  <NugetDependency Id="HzBPdUrtLCQP9mx1JaHQCd" Location="VL.Skia" Version="2021.4.7" />
   <PlatformDependency Id="Io1KUPbPNTnNS3vIG1aMyf" Location="./lib/Computational Geometry.dll" />
 </Document>
