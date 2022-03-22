@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="EeIL32lmsMRODV7bBVj9vE" LanguageVersion="2019.1.0-0489-gd7b6d7b7a5" Version="0.128">
-  <NugetDependency Id="EMVhEzFWSmRO5xHfBKJJiD" Location="VL.CoreLib" Version="2019.1.0-488" />
+<Document xmlns:p="property" Id="EeIL32lmsMRODV7bBVj9vE" LanguageVersion="2021.4.7.906" Version="0.128">
+  <NugetDependency Id="EMVhEzFWSmRO5xHfBKJJiD" Location="VL.CoreLib" Version="2021.4.7" />
   <Patch Id="En7RpKiguMGNM49OUVT9mK">
     <Canvas Id="Esnn40cJ9sxNST2whtYXm3" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -58,11 +58,7 @@
               <CategoryReference Kind="Category" Name="Layers" NeedsToBeDirectParent="true" />
             </p:NodeReference>
             <Pin Id="SQWETJuiI8zN3ciYBHWpeb" Name="Points" Kind="InputPin" />
-            <Pin Id="BsTTeXSDbXhLq7TS6J3pFD" Name="Size" Kind="InputPin">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Float32" />
-              </p:TypeAnnotation>
-            </Pin>
+            <Pin Id="BsTTeXSDbXhLq7TS6J3pFD" Name="Size" Kind="InputPin" />
             <Pin Id="CsBfvrQo7TaNLZvWkoBLe7" Name="Shape" Kind="InputPin" />
             <Pin Id="F0ykRkvzNxdMKGVuRs2dZf" Name="Paint" Kind="InputPin" />
             <Pin Id="CzxZb6Sl0nRPJpBXnbYUla" Name="Enabled" Kind="InputPin" />
@@ -82,6 +78,8 @@
             <Pin Id="HxBC14cnqHtQTQcgMUnPDP" Name="Color" Kind="InputPin" />
             <Pin Id="Tb03OTJED2cOHMIbubKX6t" Name="Clear" Kind="InputPin" />
             <Pin Id="ShV1IlMc2TdNeWvFBpSLLt" Name="Space" Kind="InputPin" />
+            <Pin Id="PVChDHtAmWsNSL1KSQf5Ez" Name="Show Cursor" Kind="InputPin" />
+            <Pin Id="ITZiTbxAPCgPHekOBPH5gE" Name="VSync" Kind="InputPin" />
             <Pin Id="Cjjxb2G5KdDLDCK95muv3J" Name="Enabled" Kind="InputPin" />
             <Pin Id="StSCqEEWZqtPjqa2tG0HvV" Name="Form" Kind="OutputPin" />
             <Pin Id="IU8dGYQShR1PJzbRR0Evo0" Name="ClientBounds" Kind="OutputPin" />
@@ -94,6 +92,8 @@
             </p:NodeReference>
             <Pin Id="T2uwHafIFhDLtlpkkYwOpn" Name="Input" Kind="InputPin" />
             <Pin Id="K8zKWirMw1lL6678wqeNLH" Name="Input 2" Kind="InputPin" />
+            <Pin Id="KC6unMTvvngObgwYmgcfZi" Name="Debug" Kind="InputPin" />
+            <Pin Id="NcAhBjhWs9OM7uSGbgUlYN" Name="Enabled" Kind="InputPin" />
             <Pin Id="U5dZRJy5m4tNLAGSOSuXq1" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="379,309,90,19" Id="QvI4E8FxwFPO3cJwihjpGU">
@@ -102,16 +102,12 @@
               <Choice Kind="ProcessNode" Name="VoronoiDiagram" />
             </p:NodeReference>
             <Pin Id="VKTmJ75k06XPiCPWlGgaU5" Name="Input" Kind="InputPin" />
-            <Pin Id="QylCB2bDgboQWu8BKtkRBn" Name="Infinite Ray Multiplier" Kind="InputPin">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Float32" />
-              </p:TypeAnnotation>
-            </Pin>
+            <Pin Id="QylCB2bDgboQWu8BKtkRBn" Name="Infinite Ray Multiplier" Kind="InputPin" />
             <Pin Id="AWKQmPR1vGTMjfAtvi4E2l" Name="Start" Kind="OutputPin" />
             <Pin Id="Ad87PaQZsBhNXsE5OVkA7M" Name="End" Kind="OutputPin" />
           </Node>
           <Node Bounds="386,364,97,98" Id="K8YHnqJa0PcNfNllj7Ycou">
-            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -143,6 +139,7 @@
               <Choice Kind="ProcessAppFlag" Name="Group (Spectral)" />
             </p:NodeReference>
             <Pin Id="FLdn1ZydDF0MWqDngCMDIh" Name="Input" Kind="InputPin" />
+            <Pin Id="UldwktAdqlqOtRTv5TlHye" Name="Debug" Kind="InputPin" />
             <Pin Id="T7JF6wQ9pjQN8WKUKjlkNg" Name="Enabled" Kind="InputPin" />
             <Pin Id="POtppOsSjKmPXUHKW6VBii" Name="Output" Kind="OutputPin" />
           </Node>
@@ -175,6 +172,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="DERfMiqPg7TLbCdOv3F0hb" Location="VL.Skia" Version="2019.1.0-0437-g96c37ff9f9" />
-  <DocumentDependency Id="SNOUSUDQWdyP8MeflVD7kq" Location="../../VL.2D.Voronoi.vl" />
+  <NugetDependency Id="DERfMiqPg7TLbCdOv3F0hb" Location="VL.Skia" Version="2021.4.7" />
+  <NugetDependency Id="ND1u6RowjWHPxHher7HE4b" Location="VL.2D.Voronoi" Version="0.0.0.0" />
 </Document>
