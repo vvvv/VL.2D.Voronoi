@@ -12,11 +12,12 @@
     <description>Vornoi for VL</description>
     <tags>VL, voronoi, delaunay</tags>
 	<license type="expression">LGPL-3.0-only</license>
+	<icon>icon\nugeticon.png</icon>
   </metadata>
   <files>
     <file src="..\lib\*.dll" target="lib\net461" exclude="" />
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\help\**" target="help\" exclude="" />
-	<file src="icon.png" target=""/>
+	<file src="nugeticon.png" target="icon\" />
   </files>
 </package>
